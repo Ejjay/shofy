@@ -35,10 +35,10 @@ const ContactArea = () => {
                     </div>
                     <div className="tp-contact-info-content">
                       <p data-info="mail">
-                        <a href="mailto:contact@shofy.com">contact@shofy.com</a>
+                        <a href="mailto:christsonalloso@gmail.com">christsonalloso021@gmail.com</a>
                       </p>
                       <p data-info="phone">
-                        <a href="tel:670-413-90-762">+670 413 90 762</a>
+                        <a href="tel:0966-982-8873">0966 982 8873</a>
                       </p>
                     </div>
                   </div>
@@ -51,10 +51,10 @@ const ContactArea = () => {
                     <div className="tp-contact-info-content">
                       <p>
                         <a
-                          href="https://www.google.com/maps/place/New+York,+NY,+USA/@40.6976637,-74.1197638,11z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2"
+                          href="https://www.google.com/maps/place/61+Agoncillo,+Novaliches,+Quezon+City,+1123+Metro+Manila/@14.7247289,121.040301,15z/data=!4m6!3m5!1s0x3397b0f8c14dc32f:0x894180fba63e99fd!8m2!3d14.7247289!4d121.040301!16s%2Fg%2F11c5bxmxrq"
                           target="_blank"
                         >
-                          84 sleepy hollow st. <br /> jamaica, New York 1432
+                          20 Agoncillo St. <br /> Santa Monica, Novaliches, Quezon City
                         </a>
                       </p>
                     </div>
