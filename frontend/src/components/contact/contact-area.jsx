@@ -27,7 +27,6 @@ const ContactArea = () => {
               </div>
               <div className="col-xl-3 col-lg-4">
                 <div className="tp-contact-info-wrapper">
-                  {/* Email and phone information */}
                   <div className="tp-contact-info-item">
                     <div className="tp-contact-info-icon">
                       <span>
@@ -45,8 +44,6 @@ const ContactArea = () => {
                       </p>
                     </div>
                   </div>
-
-                  {/* Embedded Google Map */}
                   <div className="tp-contact-info-item">
                     <div className="tp-contact-info-icon">
                       <span>
@@ -54,25 +51,16 @@ const ContactArea = () => {
                       </span>
                     </div>
                     <div className="tp-contact-info-content">
-                      <div style={{ width: "100%", height: "0", paddingBottom: "56.25%", position: "relative" }}>
-                        <iframe
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15444.1234567890!2d121.040301!3d14.7247289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0f8c14dc32f%3A0x894180fba63e99fd!2s61%20Agoncillo%20St%2C%20Novaliches%2C%20Quezon%20City!5e0!3m2!1sen!2sph!4v1614081234567!5m2!1sen!2sph"
-                          style={{
-                            border: 0,
-                            position: "absolute",
-                            top: 0,
-                            left: 0,
-                            width: "100%",
-                            height: "100%",
-                          }}
-                          allowFullScreen=""
-                          loading="lazy"
-                        ></iframe>
-                      </div>
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15444.1234567890!2d121.040301!3d14.7247289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b0f8c14dc32f%3A0x894180fba63e99fd!2s61%20Agoncillo%20St%2C%20Novaliches%2C%20Quezon%20City!5e0!3m2!1sen!2sph!4v1614081234567!5m2!1sen!2sph"
+                        width="600"
+                        height="450"
+                        style={{ border: 0 }}
+                        allowFullScreen=""
+                        loading="lazy"
+                      ></iframe>
                     </div>
                   </div>
-
-                  {/* Social Media Links */}
                   <div className="tp-contact-info-item">
                     <div className="tp-contact-info-icon">
                       <span>
@@ -81,7 +69,10 @@ const ContactArea = () => {
                     </div>
                     <div className="tp-contact-info-content">
                       <div className="tp-contact-social-wrapper mt-5">
-                        <h4 className="tp-contact-social-title">Find on social media</h4>
+                        <h4 className="tp-contact-social-title">
+                          Find on social media
+                        </h4>
+
                         <div className="tp-contact-social-icon">
                           <a href="#">
                             <i className="fa-brands fa-facebook-f"></i>
