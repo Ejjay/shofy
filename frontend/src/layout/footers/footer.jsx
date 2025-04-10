@@ -23,7 +23,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                         <Image src={logo} alt="logo" />
                       </Link>
                     </div>
-                    <p className="tp-footer-desc">We are a dynamic team of full stack developers and designers crafting high-quality web applications</p>
+                    <p className="tp-footer-desc">We are a dynamic running online shop, dedicated to offering high-quality products and a seamless shopping experience.</p>
                     <div className="tp-footer-social">
                       {social_data.map(s => <a href={s.link} key={s.id} target="_blank">
                         <i className={s.icon}></i>
