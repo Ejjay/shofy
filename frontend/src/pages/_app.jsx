@@ -14,9 +14,9 @@ if (typeof window !== "undefined") {
 }
 
 // stripePromise
-const NEXT_PUBLIC_STRIPE_KEY = 'pk_test_51M6BIWJiVHIFxYwiOXHKzmHAXm3QBTPca0ewQcX55zju2j0RNqj1wvQUI0GVE2B3Yvx94h7lvKFqC5dS8HhMoatY00ox5oPPtM';
+const NEXT_PUBLIC_STRIPE_KEY = 'pk_test_51RBcGaFlxdysn105mkHP5TTBy0no4AjAMQlwYeFnFALR2iWOofQqwj1vH2Nm8zSU7kMs9E67qW8aaEGf4RVBAWjE008k63pDgd';
 const stripePromise = loadStripe(NEXT_PUBLIC_STRIPE_KEY);
-const NEXT_PUBLIC_GOOGLE_CLIENT_ID = '872872451077-h90g0g0762aoi4vfk0iv6oug1pg4h2u0.apps.googleusercontent.com'
+const NEXT_PUBLIC_GOOGLE_CLIENT_ID = '713222012255-9bh4ff2r3vco7f5duqkt0m2kbiquknar.apps.googleusercontent.com'
 export default function App({ Component, pageProps }) {
   return (
     <GoogleOAuthProvider clientId={NEXT_PUBLIC_GOOGLE_CLIENT_ID}>
