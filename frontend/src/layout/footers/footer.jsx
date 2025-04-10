@@ -106,7 +106,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                 <div className="col-md-6">
                   <div className="tp-footer-copyright">
                     <p>© {new Date().getFullYear()} All Rights Reserved  |  Online Shop by
-                      <Link href="https://www.facebook.com/share/1BtRC7nkPx/">Ej</Link>
+                      <Link href="https://www.facebook.com/share/1BtRC7nkPx/">{" "}Ej</Link>.
                     </p>
                   </div>
                 </div>
